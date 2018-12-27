@@ -13,8 +13,7 @@
   register: gradle_dir
 
 - debug:
-  msg: "gradle_dir = {{ gradle_dir.stat.isdir }}"
-
+    msg: "gradle_dir = {{ gradle_dir.stat.isdir }}"
 
 - block:
 
