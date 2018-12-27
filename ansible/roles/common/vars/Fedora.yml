@@ -1,6 +1,7 @@
 ---
 __common_packages:
   - autoconf
+  - libselinux-python
   - bash-completion
   - bzip2
   - curl
